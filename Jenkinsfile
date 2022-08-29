@@ -13,7 +13,7 @@ stages{
          }
          steps {
              withSonarQubeEnv('sonar') {
-                sh '${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=harsha -Dsonar.sources=. -Dsonar.host.url=:http://52.91.104.46:9000'
+                sh '${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=harsha -Dsonar.sources=. -Dsonar.host.url=:http://http://18.212.58.20:9000'
              }
          }
      }
